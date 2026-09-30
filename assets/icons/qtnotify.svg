@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  qtnotify.svg
+
+  Scalable twin of the PNGs rendered by make_icons.py: same palette and
+  the same unit geometry, expressed on a 128x128 viewBox. Kept for uses
+  that want a vector (documentation, desktop entries, README). The
+  compiled in window icon comes from the PNGs, so this file needs no
+  SVG image plugin at runtime.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>qtnotify temperature alert</title>
+  <rect x="0" y="0" width="128" height="128" rx="20.48" ry="20.48" fill="#cc2222"/>
+  <path d="M 64 19.2 L 112.64 104.32 L 15.36 104.32 Z" fill="#ffffff"/>
+  <rect x="59.14" y="42.24" width="9.73" height="36.48" fill="#cc2222"/>
+  <circle cx="64" cy="89.6" r="5.38" fill="#cc2222"/>
+</svg>

@@ -1,0 +1,19 @@
+<!DOCTYPE RCC>
+<!--
+  qtnotify.qrc
+
+  Compiled into the binary by rcc (see src/Makefile), which is why the
+  dialog needs no icon file installed next to it. Paths are relative to
+  this file. Building without rcc is supported, the dialog then simply
+  carries no window icon.
+-->
+<RCC version="1.0">
+  <qresource prefix="/icons">
+    <file alias="qtnotify-16.png">icons/qtnotify-16.png</file>
+    <file alias="qtnotify-32.png">icons/qtnotify-32.png</file>
+    <file alias="qtnotify-64.png">icons/qtnotify-64.png</file>
+    <file alias="qtnotify-128.png">icons/qtnotify-128.png</file>
+    <file alias="qtnotify-256.png">icons/qtnotify-256.png</file>
+    <file alias="qtnotify.svg">icons/qtnotify.svg</file>
+  </qresource>
+</RCC>
